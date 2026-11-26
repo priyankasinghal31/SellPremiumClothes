@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Values stored in the database. Not translated. Labels live in strings.xml arrays. -->
+<resources>
+    <string-array name="occasion_keys" translatable="false">
+        <item>lehenga</item>
+        <item>gown</item>
+        <item>saree</item>
+        <item>sherwani</item>
+        <item>suit</item>
+        <item>other</item>
+    </string-array>
+    <string-array name="condition_keys" translatable="false">
+        <item>new</item>
+        <item>like_new</item>
+        <item>gently_used</item>
+        <item>used</item>
+    </string-array>
+    <string-array name="sizes" translatable="false">
+        <item>XS</item>
+        <item>S</item>
+        <item>M</item>
+        <item>L</item>
+        <item>XL</item>
+        <item>XXL</item>
+        <item>Free size</item>
+    </string-array>
+    <string-array name="cities" translatable="false">
+        <item>Delhi</item>
+        <item>Noida</item>
+        <item>Greater Noida</item>
+        <item>Gurugram</item>
+        <item>Ghaziabad</item>
+        <item>Faridabad</item>
+        <item>Other</item>
+    </string-array>
+</resources>

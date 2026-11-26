@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShaadiSwap</string>
+
+    <!-- Common -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="all">All</string>
+    <string name="error_generic">Something went wrong. Please try again.</string>
+
+    <!-- Login -->
+    <string name="login_title">Welcome to ShaadiSwap</string>
+    <string name="login_subtitle">Buy and sell pre-owned wedding and occasion outfits in Delhi NCR</string>
+    <string name="phone_hint">10-digit mobile number</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="otp_hint">Enter 6-digit OTP</string>
+    <string name="verify">Verify and continue</string>
+    <string name="invalid_phone">Enter a valid 10-digit mobile number</string>
+    <string name="invalid_otp">Enter the 6-digit OTP</string>
+    <string name="otp_failed">Could not send OTP: %1$s</string>
+    <string name="login_failed">Login failed. Check the OTP and try again.</string>
+
+    <!-- Profile -->
+    <string name="profile_title">Set up your profile</string>
+    <string name="name_hint">Your name</string>
+    <string name="city_label">City</string>
+    <string name="whatsapp_hint">WhatsApp number (buyers will contact you here)</string>
+    <string name="save_continue">Save and continue</string>
+    <string name="name_required">Please enter your name</string>
+
+    <!-- Feed -->
+    <string name="search_hint">Search lehenga, gown, saree…</string>
+    <string name="label_occasion">Type</string>
+    <string name="label_size">Size</string>
+    <string name="label_city">City</string>
+    <string name="max_price_hint">Max price (₹)</string>
+    <string name="no_listings">No outfits found. Try changing the filters, or add yours!</string>
+    <string name="load_failed">Could not load listings. Pull down to retry.</string>
+    <string name="sell_outfit">Sell outfit</string>
+    <string name="menu_my_listings">My listings</string>
+    <string name="menu_favourites">Favourites</string>
+    <string name="menu_language">Language: हिंदी / English</string>
+    <string name="menu_logout">Log out</string>
+    <string name="sold_label">SOLD</string>
+
+    <!-- Detail -->
+    <string name="chat_whatsapp">Chat on WhatsApp</string>
+    <string name="wa_message">Hi, I saw your listing \"%1$s\" on ShaadiSwap. Is it still available?</string>
+    <string name="whatsapp_missing">Could not open WhatsApp.</string>
+    <string name="seller_label">Seller: %1$s (%2$s)</string>
+    <string name="original_price">Original price: %1$s</string>
+    <string name="condition_line_label">Condition</string>
+    <string name="condition_line">Condition: %1$s</string>
+    <string name="size_line">Size: %1$s</string>
+    <string name="type_line">Type: %1$s</string>
+    <string name="favourite_add">♡ Save</string>
+    <string name="favourite_remove">♥ Saved</string>
+    <string name="report">Report listing</string>
+    <string name="report_title">Why are you reporting this?</string>
+    <string name="report_send">Report</string>
+    <string name="report_thanks">Thanks. We will review this listing.</string>
+    <string name="safety_tip">Safety tip: meet in a public place, check the outfit in person and do not pay in advance.</string>
+    <string name="listing_not_found">This listing is no longer available.</string>
+    <string-array name="report_reasons">
+        <item>Fake or misleading photos</item>
+        <item>Spam or duplicate</item>
+        <item>Suspected scam</item>
+        <item>Inappropriate content</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="report_reason_keys" translatable="false">
+        <item>fake_photos</item>
+        <item>spam</item>
+        <item>scam</item>
+        <item>inappropriate</item>
+        <item>other</item>
+    </string-array>
+
+    <!-- Add listing -->
+    <string name="add_listing_title">Add your outfit</string>
+    <string name="title_hint">Title (e.g. Red bridal lehenga, Sabyasachi style)</string>
+    <string name="desc_hint">Description (colour, work, fit, alterations, flaws)</string>
+    <string name="price_hint">Selling price (₹)</string>
+    <string name="orig_price_hint">Original price (₹, optional)</string>
+    <string name="add_photos">Add photos (4 to 6, include the tag and any flaws)</string>
+    <string name="photos_count">%1$d / 6 photos selected. Tap a photo to remove it.</string>
+    <string name="publish">Publish listing</string>
+    <string name="publishing">Publishing…</string>
+    <string name="err_title">Please enter a title</string>
+    <string name="err_price">Enter a valid price</string>
+    <string name="err_photos">Please add at least 4 photos</string>
+    <string name="max_photos">You can add up to 6 photos</string>
+    <string name="limit_title">Free limit reached</string>
+    <string name="limit_message">You can post 2 listings for free. Paid listings are coming soon.</string>
+    <string name="listing_published">Your outfit is live!</string>
+    <string name="upload_failed">Upload failed. Check your internet and try again.</string>
+
+    <!-- My listings / favourites -->
+    <string name="my_listings_title">My listings</string>
+    <string name="favourites_title">Favourites</string>
+    <string name="empty_mine">You have not listed anything yet.</string>
+    <string name="empty_favs">No saved outfits yet.</string>
+    <string name="mark_sold">Mark sold</string>
+    <string name="relist">Relist</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="delete_confirm">Delete this listing permanently?</string>
+    <string name="status_active">Live</string>
+    <string name="status_sold">Sold</string>
+    <string name="status_removed">Removed by admin</string>
+
+    <!-- Option labels (same order as keys.xml) -->
+    <string-array name="occasion_labels">
+        <item>Bridal lehenga</item>
+        <item>Gown</item>
+        <item>Saree</item>
+        <item>Sherwani / menswear</item>
+        <item>Sharara / Anarkali / suit</item>
+        <item>Other</item>
+    </string-array>
+    <string-array name="condition_labels">
+        <item>New with tag</item>
+        <item>Like new</item>
+        <item>Gently used</item>
+        <item>Used</item>
+    </string-array>
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ShaadiSwap</string>
+
+    <string name="ok">ठीक है</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="save">सहेजें</string>
+    <string name="all">सभी</string>
+    <string name="error_generic">कुछ गड़बड़ हो गई। कृपया फिर कोशिश करें।</string>
+
+    <string name="login_title">ShaadiSwap में आपका स्वागत है</string>
+    <string name="login_subtitle">दिल्ली NCR में शादी और खास मौकों के पहने हुए कपड़े खरीदें और बेचें</string>
+    <string name="phone_hint">10 अंकों का मोबाइल नंबर</string>
+    <string name="send_otp">OTP भेजें</string>
+    <string name="otp_hint">6 अंकों का OTP डालें</string>
+    <string name="verify">सत्यापित करें और आगे बढ़ें</string>
+    <string name="invalid_phone">सही 10 अंकों का मोबाइल नंबर डालें</string>
+    <string name="invalid_otp">6 अंकों का OTP डालें</string>
+    <string name="otp_failed">OTP नहीं भेजा जा सका: %1$s</string>
+    <string name="login_failed">लॉगिन नहीं हो सका। OTP जांचकर फिर कोशिश करें।</string>
+
+    <string name="profile_title">अपनी प्रोफ़ाइल बनाएं</string>
+    <string name="name_hint">आपका नाम</string>
+    <string name="city_label">शहर</string>
+    <string name="whatsapp_hint">WhatsApp नंबर (खरीदार यहीं संपर्क करेंगे)</string>
+    <string name="save_continue">सहेजें और आगे बढ़ें</string>
+    <string name="name_required">कृपया अपना नाम डालें</string>
+
+    <string name="search_hint">लहंगा, गाउन, साड़ी खोजें…</string>
+    <string name="label_occasion">प्रकार</string>
+    <string name="label_size">साइज़</string>
+    <string name="label_city">शहर</string>
+    <string name="max_price_hint">अधिकतम कीमत (₹)</string>
+    <string name="no_listings">कोई कपड़ा नहीं मिला। फ़िल्टर बदलें या अपना कपड़ा जोड़ें!</string>
+    <string name="load_failed">लिस्टिंग लोड नहीं हो सकी। दोबारा कोशिश के लिए नीचे खींचें।</string>
+    <string name="sell_outfit">कपड़ा बेचें</string>
+    <string name="menu_my_listings">मेरी लिस्टिंग</string>
+    <string name="menu_favourites">पसंदीदा</string>
+    <string name="menu_language">भाषा: हिंदी / English</string>
+    <string name="menu_logout">लॉग आउट</string>
+    <string name="sold_label">बिक गया</string>
+
+    <string name="chat_whatsapp">WhatsApp पर चैट करें</string>
+    <string name="wa_message">नमस्ते, मैंने ShaadiSwap पर आपकी लिस्टिंग \"%1$s\" देखी। क्या यह अभी उपलब्ध है?</string>
+    <string name="whatsapp_missing">WhatsApp नहीं खुल सका।</string>
+    <string name="seller_label">विक्रेता: %1$s (%2$s)</string>
+    <string name="original_price">असली कीमत: %1$s</string>
+    <string name="condition_line_label">हालत</string>
+    <string name="condition_line">हालत: %1$s</string>
+    <string name="size_line">साइज़: %1$s</string>
+    <string name="type_line">प्रकार: %1$s</string>
+    <string name="favourite_add">♡ सहेजें</string>
+    <string name="favourite_remove">♥ सहेजा गया</string>
+    <string name="report">लिस्टिंग की रिपोर्ट करें</string>
+    <string name="report_title">आप रिपोर्ट क्यों कर रहे हैं?</string>
+    <string name="report_send">रिपोर्ट करें</string>
+    <string name="report_thanks">धन्यवाद। हम इस लिस्टिंग की जांच करेंगे।</string>
+    <string name="safety_tip">सुरक्षा सुझाव: सार्वजनिक जगह पर मिलें, कपड़ा खुद देखकर जांचें और पहले से पैसे न दें।</string>
+    <string name="listing_not_found">यह लिस्टिंग अब उपलब्ध नहीं है।</string>
+    <string-array name="report_reasons">
+        <item>नकली या भ्रामक फोटो</item>
+        <item>स्पैम या दोहराई गई लिस्टिंग</item>
+        <item>संदिग्ध धोखाधड़ी</item>
+        <item>अनुचित सामग्री</item>
+        <item>अन्य</item>
+    </string-array>
+
+    <string name="add_listing_title">अपना कपड़ा जोड़ें</string>
+    <string name="title_hint">शीर्षक (जैसे लाल दुल्हन लहंगा)</string>
+    <string name="desc_hint">विवरण (रंग, काम, फिटिंग, बदलाव, कमियां)</string>
+    <string name="price_hint">बिक्री कीमत (₹)</string>
+    <string name="orig_price_hint">असली कीमत (₹, वैकल्पिक)</string>
+    <string name="add_photos">फोटो जोड़ें (4 से 6, टैग और कमियां भी दिखाएं)</string>
+    <string name="photos_count">%1$d / 6 फोटो चुनी गईं। हटाने के लिए फोटो पर टैप करें।</string>
+    <string name="publish">लिस्टिंग प्रकाशित करें</string>
+    <string name="publishing">प्रकाशित हो रहा है…</string>
+    <string name="err_title">कृपया शीर्षक डालें</string>
+    <string name="err_price">सही कीमत डालें</string>
+    <string name="err_photos">कृपया कम से कम 4 फोटो जोड़ें</string>
+    <string name="max_photos">आप अधिकतम 6 फोटो जोड़ सकते हैं</string>
+    <string name="limit_title">मुफ़्त सीमा पूरी हो गई</string>
+    <string name="limit_message">आप 2 लिस्टिंग मुफ़्त डाल सकते हैं। पेड लिस्टिंग जल्द आ रही हैं।</string>
+    <string name="listing_published">आपका कपड़ा लाइव हो गया!</string>
+    <string name="upload_failed">अपलोड नहीं हो सका। इंटरनेट जांचकर फिर कोशिश करें।</string>
+
+    <string name="my_listings_title">मेरी लिस्टिंग</string>
+    <string name="favourites_title">पसंदीदा</string>
+    <string name="empty_mine">आपने अभी तक कुछ लिस्ट नहीं किया है।</string>
+    <string name="empty_favs">अभी कोई कपड़ा सहेजा नहीं गया है।</string>
+    <string name="mark_sold">बिका हुआ चिह्नित करें</string>
+    <string name="relist">फिर से लिस्ट करें</string>
+    <string name="edit">बदलें</string>
+    <string name="delete">हटाएं</string>
+    <string name="delete_confirm">क्या यह लिस्टिंग हमेशा के लिए हटानी है?</string>
+    <string name="status_active">लाइव</string>
+    <string name="status_sold">बिक गया</string>
+    <string name="status_removed">एडमिन द्वारा हटाया गया</string>
+
+    <string-array name="occasion_labels">
+        <item>दुल्हन का लहंगा</item>
+        <item>गाउन</item>
+        <item>साड़ी</item>
+        <item>शेरवानी / पुरुषों के कपड़े</item>
+        <item>शरारा / अनारकली / सूट</item>
+        <item>अन्य</item>
+    </string-array>
+    <string-array name="condition_labels">
+        <item>नया (टैग के साथ)</item>
+        <item>नए जैसा</item>
+        <item>हल्का इस्तेमाल किया</item>
+        <item>इस्तेमाल किया हुआ</item>
+    </string-array>
+</resources>
