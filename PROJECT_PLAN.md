@@ -78,8 +78,8 @@ When you are ready, tell me: "Do Step N" and I will build it.
 - Steps 8-9: 2 weeks
 - Total: about 6-10 weeks to a first release
 
-## Decisions to confirm before Step 1
-1. Launch city or country
-2. App name and logo
-3. Free listings per user (suggest 2)
-4. Languages (English, Hindi)
+## Decisions (confirmed)
+1. Launch city: Delhi NCR, India
+2. App name: ShaadiSwap (logo still to do; check Play Store, Instagram handle, .in/.com domain and trademark before publishing)
+3. Free listings per user: 2
+4. Languages: English and Hindi
